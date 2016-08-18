@@ -1,5 +1,6 @@
 {
   "name": "redux-easy-models-sample",
+  "homepage": "https://machadogj.github.io/redux-easy-models-sample",
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
