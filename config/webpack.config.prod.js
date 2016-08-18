@@ -106,16 +106,16 @@ module.exports = {
       template: paths.appHtml,
       favicon: paths.appFavicon,
       minify: {
-        removeComments: false,
-        collapseWhitespace: false,
-        removeRedundantAttributes: false,
-        useShortDoctype: false,
-        removeEmptyAttributes: false,
-        removeStyleLinkTypeAttributes: false,
-        keepClosingSlash: false,
-        minifyJS: false,
-        minifyCSS: false,
-        minifyURLs: false
+        removeComments: true,
+        collapseWhitespace: true,
+        removeRedundantAttributes: true,
+        useShortDoctype: true,
+        removeEmptyAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        keepClosingSlash: true,
+        minifyJS: true,
+        minifyCSS: true,
+        minifyURLs: true
       }
     }),
     new webpack.DefinePlugin({ 'process.env.NODE_ENV': '"production"' }),
