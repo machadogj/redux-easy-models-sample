@@ -1,4 +1,5 @@
 export default `
+// models/timer.js
 import Model from 'redux-easy-models';
 
 // helper function to simulate an async operation

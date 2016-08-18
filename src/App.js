@@ -28,6 +28,9 @@ class AppComponent extends Component {
           <h2>Welcome to redux-easy-models sample!</h2>
         </div>
         <p className="App-intro">
+          This sample was built with <a href="https://github.com/machadogj/redux-easy-models">redux-easy-models</a>.
+        </p>
+        <p className="App-intro">
           You can look at the actions being dispatched in the browser's development console.
         </p>
         <p className="buttons">
