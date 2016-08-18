@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.buttons {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.button {
+  background-color: #c3c3c3;
+  margin: 15px;
+  padding: 12px;
+}
+
+code {
+  background-color: #f3f3f3;
+  display: inline-block;
+  padding: 20px;
+  white-space: pre-wrap;
+  text-align: left;
+}
+
+// github corner
+.github-corner:hover .octo-arm{transform-origin: 130px 106px;animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}
+.github-corner-svg {fill:#fff; color:#222; position: absolute; top: 0; border: 0; right: 0;}
+.github-corner-path1 {transform-origin: 130px 106px;}
