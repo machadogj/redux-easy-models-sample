@@ -2,7 +2,7 @@ This is a sample app built with [redux-easy-models](https://github.com/machadogj
 
 ## Demo
 
-To see it live, you can click [here]().
+To see it live, you can click [here](https://machadogj.github.io/redux-easy-models-sample/).
 
 ## Code
 
