@@ -106,34 +106,34 @@ module.exports = {
       template: paths.appHtml,
       favicon: paths.appFavicon,
       minify: {
-        removeComments: true,
-        collapseWhitespace: true,
-        removeRedundantAttributes: true,
-        useShortDoctype: true,
-        removeEmptyAttributes: true,
-        removeStyleLinkTypeAttributes: true,
-        keepClosingSlash: true,
-        minifyJS: true,
-        minifyCSS: true,
-        minifyURLs: true
+        removeComments: false,
+        collapseWhitespace: false,
+        removeRedundantAttributes: false,
+        useShortDoctype: false,
+        removeEmptyAttributes: false,
+        removeStyleLinkTypeAttributes: false,
+        keepClosingSlash: false,
+        minifyJS: false,
+        minifyCSS: false,
+        minifyURLs: false
       }
     }),
     new webpack.DefinePlugin({ 'process.env.NODE_ENV': '"production"' }),
     new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.optimize.DedupePlugin(),
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        screw_ie8: true,
-        warnings: false
-      },
-      mangle: {
-        screw_ie8: true
-      },
-      output: {
-        comments: false,
-        screw_ie8: true
-      }
-    }),
+    // new webpack.optimize.UglifyJsPlugin({
+    //   compress: {
+    //     screw_ie8: true,
+    //     warnings: false
+    //   },
+    //   mangle: {
+    //     screw_ie8: true
+    //   },
+    //   output: {
+    //     comments: false,
+    //     screw_ie8: true
+    //   }
+    // }),
     new ExtractTextPlugin('static/css/[name].[contenthash:8].css')
   ]
 };
